@@ -1,0 +1,1 @@
+Create an XML file that will contain the messages sent between two users. Each message must save the data about the user who sent the message, the title of the message, the content of the message and the date and time the message was sent. A DTD statement must also be made for the message.
