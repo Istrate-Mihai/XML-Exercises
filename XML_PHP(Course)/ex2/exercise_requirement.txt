@@ -1,0 +1,1 @@
+Using the exercise created in the previous lesson and SimpleXML, enter the complete XML document in the XML class, delete a message, and add two new messages using SimpleXML with all the elements and content, and then type XML in the window.
