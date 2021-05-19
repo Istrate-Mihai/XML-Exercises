@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE conversation [
+<!ELEMENT conversation (messasge)+>
+<!ELEMENT message (username , msjtitle , msjcontent , datetime)>
+<!ELEMENT username (#PCDATA)>
+<!ELEMENT msjtitle (#PCDATA)>
+<!ELEMENT msjcontent (#PCDATA)>
+<!ELEMENT datetime (#PCDATA)>
+<!ATTLIST messasge msjID CDATA #REQUIRED>
+]>
+<conversation>
+
+<message msjID="0">
+<username>Paul</username>
+<msjtitle>Doctor_Appointment</msjtitle>
+<msjcontent>Hello Angela,have you made an appoinment to dentist with that ache that was bothering you!</msjcontent>
+<datetime>5/19/2021 12:13</datetime>
+</message>
+
+<message msjID="1">
+<username>Angela</username>
+<msjtitle>Doctor_Appointment_Response</msjtitle>
+<msjcontent>Hi Paul,yes I've made an appoinment tomorrow!</msjcontent>
+<datetime>5/19/2021 12:15</datetime>
+</message>
+
+
+
+<message msjID="2"><username>Paul</username><msjtitle>Message_Continuation1</msjtitle><msjcontent>This is great,I'm glad to hear that!</msjcontent><datetime>5/19/2021 12:17</datetime></message><message msjID="3"><username>Angela</username><msjtitle>Message_Continuation2</msjtitle><msjcontent>Thanks for your concern Paul!</msjcontent><datetime>5/19/2021 12:19</datetime></message></conversation>
