@@ -1,0 +1,1 @@
+Using the exercise created in the previous lesson and XPath, write all the messages in the output XML file, in HTML format, using the html tags <h4>, <p> for different parts of the message. Use XPath to find messages and their items.
