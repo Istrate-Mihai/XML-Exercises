@@ -1,0 +1,1 @@
+In the exercise in the previous lesson, add namespaces for all messages saved in the XML document so that we can distinguish incoming and outgoing messages through the namespace.
