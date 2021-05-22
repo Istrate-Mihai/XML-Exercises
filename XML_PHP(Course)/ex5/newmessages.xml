@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE conversation [
+<!ELEMENT conversation (messasge)+>
+<!ELEMENT message (username , msjtitle , msjcontent , datetime)>
+<!ELEMENT username (#PCDATA)>
+<!ELEMENT msjtitle (#PCDATA)>
+<!ELEMENT msjcontent (#PCDATA)>
+<!ELEMENT datetime (#PCDATA)>
+<!ATTLIST messasge msjID CDATA #REQUIRED>
+]>
+<conversation xmlns:inputMessage = "fromPaul" xmlns:outputMessage = "toPaul"  >
+
+<inputMessage:message msjID="0">
+<inputMessage:username>Paul</inputMessage:username>
+<inputMessage:msjtitle>Doctor_Appointment</inputMessage:msjtitle>
+<inputMessage:msjcontent>Hello Angela,have you made an appoinment to dentist with that ache that was bothering you?</inputMessage:msjcontent>
+<inputMessage:datetime>5/19/2021 12:13</inputMessage:datetime>
+</inputMessage:message>
+
+<outputMessage:message msjID="1">
+<outputMessage:username>Angela</outputMessage:username>
+<outputMessage:msjtitle>Doctor_Appointment_Response</outputMessage:msjtitle>
+<outputMessage:msjcontent>Hi Paul,yes I've made an appoinment tomorrow!</outputMessage:msjcontent>
+<outputMessage:datetime>5/19/2021 12:15</outputMessage:datetime>
+</outputMessage:message>
+
+
+
+<inputMessage:message msjID="2">
+<inputMessage:username>Paul</inputMessage:username>
+<inputMessage:msjtitle>Message_Continuation1</inputMessage:msjtitle>
+<inputMessage:msjcontent>This is great,I'm glad to hear that!</inputMessage:msjcontent>
+<inputMessage:datetime>5/19/2021 12:17</inputMessage:datetime>
+</inputMessage:message>
+
+
+<outputMessage:message msjID="3">
+<outputMessage:username>Angela</outputMessage:username>
+<outputMessage:msjtitle>Message_Continuation2</outputMessage:msjtitle>
+<outputMessage:msjcontent>Thanks for your concern Paul!</outputMessage:msjcontent>
+<outputMessage:datetime>5/19/2021 12:19</outputMessage:datetime>
+</outputMessage:message>
+
+
+</conversation>
