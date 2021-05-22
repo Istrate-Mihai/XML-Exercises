@@ -1,0 +1,1 @@
+Use the exercise created in the previous lesson and the DOMDocument class. Take the full created XML document, parse it, add a new message with new content, and present the full content in the HTML form.
